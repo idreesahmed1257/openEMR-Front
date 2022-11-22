@@ -515,228 +515,231 @@ const AddPatients2 = () => {
                   </div>
                 </div>
               </li>
-              <li class="expandable ">
+              <li class="expandable">
                 <div class="collapsible-header">Choices</div>
-                <div class="collapsible-body d-flex gap-5">
-                  {/* 1 */}
-                  <div>
-                    <div className="d-flex align-center ">
-                      <label>Provider:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
+                <div class="collapsible-body col-12">
+                  <div className="d-flex align-center gap-4 con-center">
+                    {/* 1 */}
+                    <div>
+                      <div className="d-flex align-center w-full">
+                        <label>Provider:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label className="">Referring Provider:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center ">
+                        <label>Pharmacy:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected></option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center ">
+                        <label>HIPAA Notice Received:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="lmw">Leave Message With:</label>
+                        <input type="text" name="" id="lmw" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Allow SMS:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Allow Immunization Registry Use:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Allow Health Information Exchange:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="APIacc">Prevent API Access:</label>
+                        <input type="checkbox" name="" id="APIacc" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Immunization Registry Status:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Publicity Code:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Protection Indicator:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="prov">Care Team(Provider):</label>
+                        <input type="text" name="" id="prov" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="fac">Care Team(Facility):</label>
+                        <input type="text" name="" id="fac" />
+                      </div>
                     </div>
-                    <div className="d-flex align-center ">
-                      <label>Referring Provider:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center ">
-                      <label>Pharmacy:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected></option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center ">
-                      <label>HIPAA Notice Received:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label htmlFor="lmw">Leave Message With:</label>
-                      <input type="text" name="" id="lmw" />
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Allow SMS:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Allow Immunization Registry Use:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Allow Health Information Exchange:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label htmlFor="APIacc">Prevent API Access:</label>
-                      <input type="checkbox" name="" id="APIacc" />
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Immunization Registry Status:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Publicity Code:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Protection Indicator:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label htmlFor="prov">Care Team(Provider):</label>
-                      <input type="text" name="" id="prov" />
-                    </div>
-                    <div className="d-flex align-center">
-                      <label htmlFor="fac">Care Team(Facility):</label>
-                      <input type="text" name="" id="fac" />
-                    </div>
-                  </div>
-                  <div>
-                    <div className="d-flex align-center">
-                      <label htmlFor="psd">Provide Since Date:</label>
-                      <input type="text" name="" id="psd" />
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Allow Voice Message:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Allow Mail Message:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Allow Email:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Allow Immunization Info Sharing:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Allow Patient Portal:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Unassigned
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                    </div>
-                    <div className="d-flex align-center">
-                      <label htmlFor="cpl">CMS Portal Login:</label>
-                      <input type="text" name="" id="cpl" />
-                    </div>
-                    <div className="d-flex align-center">
-                      <label htmlFor="cpl">
-                        Immunization Registry Status Effective Date:
-                      </label>
-                      <input type="text" name="" id="cpl" />
-                    </div>
-                    <div className="d-flex align-center">
-                      <label htmlFor="cpl">
-                        Publicity Code Effective Date:
-                      </label>
-                      <input type="text" name="" id="cpl" />
-                    </div>
-                    <div className="d-flex align-center">
-                      <label htmlFor="cpl">
-                        Protection Indicator Effective Date:
-                      </label>
-                      <input type="text" name="" id="cpl" />
-                    </div>
-                    <div className="d-flex align-center">
-                      <label>Care Team Status:</label>
-                      <select class="browser-default ">
-                        <option value="" disabled selected>
-                          Active
-                        </option>
-                        <option value="4">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
+                    {/* 2 */}
+                    <div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="psd">Provide Since Date:</label>
+                        <input type="text" name="" id="psd" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Allow Voice Message:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Allow Mail Message:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Allow Email:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Allow Immunization Info Sharing:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Allow Patient Portal:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="cpl">CMS Portal Login:</label>
+                        <input type="text" name="" id="cpl" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="cpl">
+                          Immunization Registry Status Effective Date:
+                        </label>
+                        <input type="text" name="" id="cpl" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="cpl">
+                          Publicity Code Effective Date:
+                        </label>
+                        <input type="text" name="" id="cpl" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="cpl">
+                          Protection Indicator Effective Date:
+                        </label>
+                        <input type="text" name="" id="cpl" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Care Team Status:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Active
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
                     </div>
                   </div>
                 </div>
