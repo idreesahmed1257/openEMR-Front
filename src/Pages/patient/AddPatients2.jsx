@@ -600,9 +600,21 @@ const AddPatients2 = () => {
                           <option value="3">Option 3</option>
                         </select>
                       </div>
-                      <div className="d-flex align-center">
+                      <div className="">
                         <label htmlFor="APIacc">Prevent API Access:</label>
-                        <input type="checkbox" name="" id="APIacc" />
+                        <input
+                          type="checkbox"
+                          defaultChecked={true}
+                          id="APIacc"
+                          style={{
+                            position: "relative",
+                            opacity: "1",
+                            width: "15px ",
+                            height: "15px",
+                            left: "10px",
+                            top: "2px",
+                          }}
+                        />
                       </div>
                       <div className="d-flex align-center">
                         <label>Immunization Registry Status:</label>
