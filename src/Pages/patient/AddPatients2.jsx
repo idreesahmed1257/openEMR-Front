@@ -531,3 +531,5 @@ const AddPatients2 = () => {
 };
 
 export default AddPatients2;
+
+export default AddPatients2
