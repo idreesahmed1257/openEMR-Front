@@ -1,0 +1,30 @@
+.loginWrap {
+    /* margin-top: 20%; */
+    height: 100vh;
+}
+
+.loginBox {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 10vh;
+    height: 75vh;
+}
+
+.loginHead {
+    background-color: #4468bb;
+    padding: 3rem 0;
+}
+
+.loginHead>img {
+    width: 50%;
+}
+
+.loginHead>* {
+    color: white;
+}
+
+
+.loginBody label {
+    color: black;
+    font-size: medium;
+}
