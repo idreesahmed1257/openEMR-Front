@@ -752,6 +752,88 @@ const AddPatients2 = () => {
                           <option value="3">Option 3</option>
                         </select>
                       </div>
+                      <div className="d-flex align-center">
+                        <label>Patient Categories:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Active
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="expandable ">
+                <div class="collapsible-header">Employer</div>
+                <div class="collapsible-body">
+                  <div class="d-flex gap-4">
+                    <div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="occ">Occupation:</label>
+                        <input type="text" name="" id="occ" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="en">Employer Name:</label>
+                        <input type="text" name="" id="en" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="ea2">Employer Address Line 2:</label>
+                        <input type="text" name="" id="ea2" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>State:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                        <button>Add</button>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label>Country:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                        <button>Add</button>
+                      </div>
+                    </div>
+                    <div>
+                      <div className="d-flex align-center">
+                        <label>Industry:</label>
+                        <select class="browser-default ">
+                          <option value="" disabled selected>
+                            Unassigned
+                          </option>
+                          <option value="4">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                        <button>Add</button>
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="ea">Employer Address:</label>
+                        <input type="text" name="" id="ea" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="city">City:</label>
+                        <input type="text" name="" id="city" />
+                      </div>
+                      <div className="d-flex align-center">
+                        <label htmlFor="pc">Postal Code:</label>
+                        <input type="text" name="" id="pc" />
+                      </div>
                     </div>
                   </div>
                 </div>
