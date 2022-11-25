@@ -565,7 +565,7 @@ const AddPatients2 = () => {
                       </div>
                       <div className="d-flex align-center">
                         <label htmlFor="lmw">Leave Message With:</label>
-                        <input type="text" name="" id="lmw" />
+                        <input type="text" name="" id="lmw" class="browser-default " />
                       </div>
                       <div className="d-flex align-center">
                         <label>Allow SMS:</label>
@@ -651,18 +651,18 @@ const AddPatients2 = () => {
                       </div>
                       <div className="d-flex align-center">
                         <label htmlFor="prov">Care Team(Provider):</label>
-                        <input type="text" name="" id="prov" />
+                        <input type="text" name="" id="prov" className="browser-default" />
                       </div>
                       <div className="d-flex align-center">
                         <label htmlFor="fac">Care Team(Facility):</label>
-                        <input type="text" name="" id="fac" />
+                        <input type="text" name="" id="fac" className="browser-default" />
                       </div>
                     </div>
                     {/* 2 */}
                     <div>
                       <div className="d-flex align-center">
                         <label htmlFor="psd">Provide Since Date:</label>
-                        <input type="text" name="" id="psd" />
+                        <input type="text" name="" id="psd" className="browser-default" />
                       </div>
                       <div className="d-flex align-center">
                         <label>Allow Voice Message:</label>
@@ -721,25 +721,25 @@ const AddPatients2 = () => {
                       </div>
                       <div className="d-flex align-center">
                         <label htmlFor="cpl">CMS Portal Login:</label>
-                        <input type="text" name="" id="cpl" />
+                        <input type="text" name="" id="cpl" className="browser-default" />
                       </div>
                       <div className="d-flex align-center">
                         <label htmlFor="cpl">
                           Immunization Registry Status Effective Date:
                         </label>
-                        <input type="text" name="" id="cpl" />
+                        <input type="text" name="" id="cpl" className="browser-default" />
                       </div>
                       <div className="d-flex align-center">
                         <label htmlFor="cpl">
                           Publicity Code Effective Date:
                         </label>
-                        <input type="text" name="" id="cpl" />
+                        <input type="text" name="" id="cpl" className="browser-default" />
                       </div>
                       <div className="d-flex align-center">
                         <label htmlFor="cpl">
                           Protection Indicator Effective Date:
                         </label>
-                        <input type="text" name="" id="cpl" />
+                        <input type="text" name="" id="cpl" className="browser-default" />
                       </div>
                       <div className="d-flex align-center">
                         <label>Care Team Status:</label>
